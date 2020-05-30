@@ -21,7 +21,7 @@ function timeElapsed(last_date='May 27, 2020 00:00:00'){
     const same_day = actual.day == past.day
     const same_month = actual.month == past.month
     const same_year = actual.year == past.year
-    const mins_d = (actual.min - past.min)
+    let mins_d = (actual.min - past.min)
     const hour_d = (actual.hour - past.hour)
     const day_d = (actual.day - past.day)
     const month_d = (actual.month - past.month)
